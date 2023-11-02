@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: aqua;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#fotolar {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 15px;
+  outline: 3px solid bisque;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.büyük {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+}
+
